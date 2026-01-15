@@ -221,7 +221,7 @@ on:
         required: false
         default: "fnnas_save"
       fnnas_url:
-        description: "Set custom fnnas image address"
+        description: "Custom fnnas image download url"
         required: false
         default: ""
       builder_name:

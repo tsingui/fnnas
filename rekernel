@@ -452,9 +452,6 @@ chroot_fnnas() {
 clean_tmp() {
     echo -e "${STEPS} Cleaning temporary files..."
     unmount_fnnas
-
-    cd "${current_path}"
-    [[ -d "${tmp_path}" ]] && rm -rf "${tmp_path}"
 }
 
 #================================== Main Execution ==================================
